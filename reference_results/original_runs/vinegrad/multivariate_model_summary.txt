@@ -1,0 +1,8 @@
+                Df  Pillai approx F num Df den Df    Pr(>F)    
+Dyslexia         1 0.17179   8.1416      4    157 5.430e-06 ***
+Disorthography   1 0.06536   2.7447      4    157   0.03042 *  
+Disgraphy        1 0.06184   2.5870      4    157   0.03903 *  
+Discalculia      1 0.31916  18.3996      4    157 2.041e-12 ***
+Residuals      160                                             
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

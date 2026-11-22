@@ -1,0 +1,16 @@
+{
+  "participants": 165,
+  "responses": 1320,
+  "scoring_key_entries": 32,
+  "component_observations": 2640,
+  "scoring_changes_relative_to_superseded_data": {
+    "exercise_8_similar_correct": 72,
+    "exercise_8_orientation_correct": 72,
+    "exercise_1_orientation_correct": 19
+  },
+  "original_whole_response_accuracy_preserved": true,
+  "versions_consistent_with_TTS": true,
+  "participant_attributes_constant_across_responses": true,
+  "free_text_or_direct_identifiers_in_release": false,
+  "R_pipeline_executed_in_packaging_environment": false
+}

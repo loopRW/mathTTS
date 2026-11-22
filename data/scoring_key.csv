@@ -1,0 +1,33 @@
+exercise,choice,correct,similar_correct,orientation_correct
+1,"Se g appartiene a 2, 3, allora limite b pedice n uguale a meno infinito",1,1,1
+1,"Se g e 2, 3, allora limite b pedice n uguale a meno infinito",0,0,1
+1,"Se g e 2, 3, allora limite b pedice n uguale a meno otto",0,0,0
+1,"Se g non appartiene a 2, 3, allora limite b pedice n uguale a più infinito",0,0,1
+2,"A s naturale, produttoria di k, con k da 0 a s, maggiore di s",0,0,0
+2,"A s naturale, sommatoria di k, con k da 0 a s, maggiore di s",0,1,0
+2,"Per ogni s naturale, sigma di k, con k da 0 a s, maggiore di s",0,0,1
+2,"Per ogni s naturale, sommatoria di k, con k da 0 a s, maggiore di s",1,1,1
+3,Intorno di a intersecato intorno di b è uguale a insieme vuoto,1,1,1
+3,Intorno di a intersecato intorno di b è uguale a zero,0,0,1
+3,Intorno di a unione intorno di b è uguale a insieme vuoto,0,1,0
+3,Intorno di a unione intorno di b è uguale a zero,0,0,0
+4,"Se f va da A a B, allora dominio di g composto f include A",0,1,0
+4,"Se f va da A a B, allora dominio di g composto f incluso in A",1,1,1
+4,"Se f, con A tendente  B, allora dominio di g composto f incluso in A",0,0,1
+4,"Se f, con A tendente B, allora dominio di g composto f include A",0,0,0
+5,"Se x maggiore o uguale y, allora g di x maggiore o uguale g di y",0,0,0
+5,"Se x minore o uguale y, allora g di x minore o uguale g di y",0,0,1
+5,x maggiore o uguale y se e solo se g di x maggiore o uguale g di y,0,1,0
+5,x minore o uguale y se e solo se g di x minore o uguale g di y,1,1,1
+6,"Se q appartiene a 1 s, con 1 escluso, s escluso, allora radice cubica di q",0,0,1
+6,"Se q appartiene a 1 s, con 1 escluso, s escluso, allora radice quadrata di q",1,1,1
+6,"Se q appartiene a 1 s, con 1 incluso, s incluso, allora radice cubica di q",0,0,0
+6,"Se q appartiene a 1 s, con 1 incluso, s incluso, allora radice quadrata di q",0,1,0
+7,E x valore assoluto y maggiore di x,0,0,0
+7,Esiste x tale che y maggiore di x,1,1,1
+7,Non esiste x barra verticale y maggiore di x,0,0,0
+7,Non esiste x tale che y maggiore di x,0,1,0
+8,x alfa 2z  solo se x numero pari,0,0,0
+8,x alfa 2z implica x numero pari,0,1,0
+8,x proporzionale a 2z implica x numero pari,1,1,1
+8,x proporzionale a 2z solo se x numero pari,0,0,1

@@ -1,0 +1,11 @@
+{
+  "figure_pairs": 8,
+  "width_inches": 6,
+  "font_points": 12,
+  "renderer": "scripts/03_figures.py",
+  "reference_inputs": "reference_results",
+  "scoring_matches_user_executed_component_data": true,
+  "component_rows_compared": 2640,
+  "python_syntax_checks": "passed",
+  "visual_QA": "completed; overlapping logarithmic tick labels corrected"
+}

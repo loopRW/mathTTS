@@ -1,0 +1,39 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: correct ~ TTS * exercise + (1 | ID)
+   Data: responses
+Control: ctrl
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1625.7    1713.8    -795.8    1591.7      1303 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.3394 -0.7156  0.2593  0.6749  4.5127 
+
+Random effects:
+ Groups Name        Variance Std.Dev.
+ ID     (Intercept) 1.462    1.209   
+Number of obs: 1320, groups:  ID, 165
+
+Fixed effects:
+               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)    0.719106   0.291044   2.471  0.01348 *  
+TTS            0.297708   0.417127   0.714  0.47541    
+exercise2     -0.247398   0.408227  -0.606  0.54449    
+exercise3     -1.024299   0.360700  -2.840  0.00451 ** 
+exercise4     -2.857615   0.467671  -6.110 9.94e-10 ***
+exercise5     -0.707113   0.358522  -1.972  0.04858 *  
+exercise6     -0.821609   0.406465  -2.021  0.04324 *  
+exercise7     -0.454289   0.358701  -1.266  0.20534    
+exercise8     -1.969088   0.425838  -4.624 3.76e-06 ***
+TTS:exercise2  0.154450   0.645512   0.239  0.81090    
+TTS:exercise3  0.677383   0.516838   1.311  0.18998    
+TTS:exercise4  1.209173   0.675792   1.789  0.07357 .  
+TTS:exercise5 -0.031530   0.512667  -0.062  0.95096    
+TTS:exercise6  0.006223   0.637685   0.010  0.99221    
+TTS:exercise7  0.040665   0.515001   0.079  0.93706    
+TTS:exercise8  0.185300   0.650890   0.285  0.77588    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

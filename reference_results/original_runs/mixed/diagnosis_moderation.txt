@@ -1,0 +1,48 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: 
+correct ~ TTS * (Dyslexia + Disorthography + Disgraphy + Discalculia) +  
+    (1 | ID) + (1 | exercise)
+   Data: responses
+Control: ctrl
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1623.6    1685.8    -799.8    1599.6      1308 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.3745 -0.7145  0.2241  0.6961  3.2365 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ ID       (Intercept) 1.0849   1.042   
+ exercise (Intercept) 0.4843   0.696   
+Number of obs: 1320, groups:  ID, 165; exercise, 8
+
+Fixed effects:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         0.77693    0.43335   1.793 0.072997 .  
+TTS                 0.94976    0.38003   2.499 0.012449 *  
+Dyslexia           -0.16973    0.31595  -0.537 0.591120    
+Disorthography     -0.26367    0.27474  -0.960 0.337210    
+Disgraphy          -0.19911    0.27116  -0.734 0.462778    
+Discalculia        -0.96045    0.27337  -3.513 0.000443 ***
+TTS:Dyslexia       -0.09160    0.33378  -0.274 0.783748    
+TTS:Disorthography  0.01456    0.29446   0.049 0.960560    
+TTS:Disgraphy      -0.32265    0.28638  -1.127 0.259895    
+TTS:Discalculia    -0.27048    0.29395  -0.920 0.357486    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) TTS    Dyslex Dsrthg Dsgrph Dsclcl TTS:Dy TTS:Dsr TTS:Dsg
+TTS         -0.420                                                          
+Dyslexia    -0.553  0.345                                                   
+Disrthgrphy -0.100  0.058 -0.216                                            
+Disgraphy   -0.100  0.059  0.002 -0.396                                     
+Discalculia -0.486  0.298  0.073  0.055 -0.091                              
+TTS:Dyslexi  0.286 -0.648 -0.525  0.123  0.001 -0.037                       
+TTS:Dsrthgr  0.051 -0.120  0.121 -0.533  0.208 -0.032 -0.222                
+TTS:Dsgrphy  0.049 -0.128 -0.001  0.215 -0.526  0.050 -0.001 -0.396         
+TTS:Disclcl  0.247 -0.599 -0.039 -0.026  0.047 -0.505  0.050  0.053  -0.079 

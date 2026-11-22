@@ -1,0 +1,49 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: correct ~ TTS * Type_DSA + group + (1 + TTS | ID) + (1 | exercise)
+   Data: responses
+Control: ctrl
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1618.8    1675.8    -798.4    1596.8      1309 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.6243 -0.6971  0.1925  0.7043  3.1458 
+
+Random effects:
+ Groups   Name        Variance Std.Dev. Corr 
+ ID       (Intercept) 0.8415   0.9173        
+          TTS         0.4607   0.6788   0.34 
+ exercise (Intercept) 0.5034   0.7095        
+Number of obs: 1320, groups:  ID, 165; exercise, 8
+
+Fixed effects:
+                                               Estimate Std. Error z value
+(Intercept)                                     0.43634    0.34839   1.252
+TTS                                             0.87939    0.28076   3.132
+Type_DSA2 Dyscalculia only                     -0.14075    0.41132  -0.342
+Type_DSA3 Dyscalculia plus reading-writing     -1.06700    0.26346  -4.050
+groupOdd exercises with TTS                    -0.04774    0.21424  -0.223
+TTS:Type_DSA2 Dyscalculia only                 -0.37188    0.51335  -0.724
+TTS:Type_DSA3 Dyscalculia plus reading-writing -0.43375    0.33604  -1.291
+                                               Pr(>|z|)    
+(Intercept)                                     0.21040    
+TTS                                             0.00173 ** 
+Type_DSA2 Dyscalculia only                      0.73221    
+Type_DSA3 Dyscalculia plus reading-writing     5.12e-05 ***
+groupOdd exercises with TTS                     0.82367    
+TTS:Type_DSA2 Dyscalculia only                  0.46881    
+TTS:Type_DSA3 Dyscalculia plus reading-writing  0.19679    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) TTS    T_DSDo T_DDpr gOewTT TTS:Do
+TTS         -0.246                                   
+Typ_DSA2Dyo -0.327  0.200                            
+Ty_DSA3Dpr- -0.517  0.319  0.426                     
+grpOddewTTS -0.318  0.024  0.020  0.030              
+TTS:T_DSADo  0.130 -0.530 -0.397 -0.172 -0.002       
+TTS:T_DSDpr  0.216 -0.844 -0.168 -0.404 -0.040  0.445

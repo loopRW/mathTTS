@@ -1,0 +1,59 @@
+Sample size: 165 participants
+
+Diagnosis prevalence
+      diagnosis absent present prevalence
+       Dyslexia     32     133  0.8060606
+ Disorthography     85      80  0.4848485
+      Disgraphy     95      70  0.4242424
+    Discalculia     47     118  0.7151515
+
+Multivariate tests using Pillai's trace
+           term  Df     Pillai  approx F num Df den Df       Pr(>F)
+       Dyslexia   1 0.17179346  8.141560      4    157 5.430334e-06
+ Disorthography   1 0.06535724  2.744655      4    157 3.042162e-02
+      Disgraphy   1 0.06183502  2.586991      4    157 3.902789e-02
+    Discalculia   1 0.31916315 18.399641      4    157 2.040607e-12
+      Residuals 160         NA        NA     NA     NA           NA
+
+Follow-up associations, sorted by Holm-adjusted p value
+          outcome      diagnosis adjusted_difference_scale_points
+ Vine_calculation    Discalculia                      2.132176527
+     Vine_reading       Dyslexia                      1.213723645
+     Vine_writing      Disgraphy                      0.685533995
+     Vine_reading Disorthography                      0.520894958
+     Vine_general Disorthography                      0.543323545
+     Vine_general       Dyslexia                      0.565283108
+     Vine_general      Disgraphy                     -0.250579431
+     Vine_general    Discalculia                      0.332578352
+     Vine_reading      Disgraphy                      0.006066032
+     Vine_reading    Discalculia                     -0.034109896
+     Vine_writing       Dyslexia                      0.271873616
+     Vine_writing Disorthography                      0.194107411
+     Vine_writing    Discalculia                     -0.131406169
+ Vine_calculation       Dyslexia                      0.172995040
+ Vine_calculation Disorthography                     -0.045657616
+ Vine_calculation      Disgraphy                     -0.304757267
+ standardized_difference_sd      p_value    p_holm_16
+                1.189767697 2.127571e-13 3.404114e-12
+                0.852999767 9.212728e-06 1.381909e-04
+                0.423755093 1.288414e-02 1.803780e-01
+                0.366082740 2.312316e-02 3.006011e-01
+                0.315355027 6.791198e-02 8.149437e-01
+                0.328100763 1.030210e-01 1.000000e+00
+               -0.145440933 3.934620e-01 1.000000e+00
+                0.193034622 2.620798e-01 1.000000e+00
+                0.004263181 9.785258e-01 1.000000e+00
+               -0.023972288 8.807710e-01 1.000000e+00
+                0.168055604 3.980690e-01 1.000000e+00
+                0.119985303 4.815047e-01 1.000000e+00
+               -0.081227239 6.334559e-01 1.000000e+00
+                0.096532303 5.778460e-01 1.000000e+00
+               -0.025477232 8.639300e-01 1.000000e+00
+               -0.170056441 2.491984e-01 1.000000e+00
+
+Variance inflation factors
+      diagnosis      vif
+       Dyslexia 1.060784
+ Disorthography 1.246149
+      Disgraphy 1.196064
+    Discalculia 1.015684

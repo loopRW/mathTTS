@@ -1,0 +1,9 @@
+exercise,pair,formula,similar_contrast,orientation_contrast,TTS_video
+1,1,"se g∈(2,3), allora lim b_n = −∞",∈ / e,∞ / 8,https://youtu.be/DO408Eek5LY
+2,1,"∀ s naturale Σ k, con k da 0 a s maggiore di s",Σ / sigma,∀ / A,https://youtu.be/XPdSolpkVVc
+3,2,I(a) ∩ I(b) = ∅,∅ / zero,∩ / union,https://youtu.be/Mgz1nqdP5zo
+4,2,"se f:A→B allora dom(g ∘ f) ⊆ A",→ / tending,⊆ / includes,https://youtu.be/U5BsD5w3JEk
+5,3,x ≤ y ⟺ g(x) ≤ g(y),⟺ / one-way conditional,≤ / ≥,https://youtu.be/w80xfrNNV2U
+6,3,"se q appartiene a ]1,s[, allora √q",√ / cube root,] / [,https://youtu.be/4Z0IhbXx77U
+7,4,∃x | y maggiore di x,| / literal vertical bar,∃ / E,https://youtu.be/v0oHB_iSTz0
+8,4,x∝2z ⇒ x numero pari,⇒ / only if,∝ / alpha,https://youtu.be/Y-GZpNj-pds

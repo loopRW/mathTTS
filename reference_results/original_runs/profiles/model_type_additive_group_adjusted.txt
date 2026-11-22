@@ -1,0 +1,43 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: correct ~ TTS + Type_DSA + group + (1 + TTS | ID) + (1 | exercise)
+   Data: responses
+Control: ctrl
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   1616.5    1663.1    -799.2    1598.5      1311 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.6050 -0.6979  0.2126  0.6873  3.2401 
+
+Random effects:
+ Groups   Name        Variance Std.Dev. Corr 
+ ID       (Intercept) 0.8939   0.9455        
+          TTS         0.4514   0.6718   0.23 
+ exercise (Intercept) 0.5036   0.7097        
+Number of obs: 1320, groups:  ID, 165; exercise, 8
+
+Fixed effects:
+                                           Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                 0.54581    0.34181   1.597    0.110
+TTS                                         0.56693    0.14213   3.989 6.64e-05
+Type_DSA2 Dyscalculia only                 -0.26550    0.37952  -0.700    0.484
+Type_DSA3 Dyscalculia plus reading-writing -1.21832    0.24420  -4.989 6.07e-07
+groupOdd exercises with TTS                -0.05963    0.21314  -0.280    0.780
+                                              
+(Intercept)                                   
+TTS                                        ***
+Type_DSA2 Dyscalculia only                    
+Type_DSA3 Dyscalculia plus reading-writing ***
+groupOdd exercises with TTS                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr) TTS    T_DSDo T_DDpr
+TTS         -0.131                     
+Typ_DSA2Dyo -0.314 -0.002              
+Ty_DSA3Dpr- -0.487 -0.036  0.434       
+grpOddewTTS -0.319 -0.014  0.026  0.023

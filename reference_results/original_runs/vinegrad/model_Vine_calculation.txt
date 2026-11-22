@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = raw_formula, data = DATA)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.2177 -1.0855 -0.2177  0.9145  3.8689 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     2.26291    0.34918   6.481 1.08e-09 ***
+Dyslexia        0.17300    0.31021   0.558    0.578    
+Disorthography -0.04566    0.26599  -0.172    0.864    
+Disgraphy      -0.30476    0.26352  -1.157    0.249    
+Discalculia     2.13218    0.26591   8.019 2.13e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.53 on 160 degrees of freedom
+Multiple R-squared:  0.2892,	Adjusted R-squared:  0.2714 
+F-statistic: 16.27 on 4 and 160 DF,  p-value: 3.332e-11
+
