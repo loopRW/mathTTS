@@ -99,5 +99,3 @@ The packaging environment did not provide R. The consolidated R pipeline has the
 ## Data handling and publication
 
 The release uses study-local participant codes and contains no names, email addresses, timestamps, institutions, age, gender, or unrestricted free-text answers. The `choice` strings are fixed experimental response options. The diagnostic indicators and questionnaire scores remain sensitive participant-level information; the codes are pseudonyms, not a guarantee of irreversible anonymization. Source spreadsheets and clinical records are not included. Vinegrad+ item wording and item-level questionnaire responses are not distributed.
-
-This folder is prepared for author review and upload; no GitHub publication is performed by these scripts. No software or data license is assigned in this package. The authors should select the intended license and verify that the planned public sharing is covered by their consent and ethics arrangements before publishing. The statistical scripts do not require the linked external videos to execute.
